@@ -23,18 +23,16 @@ Clone the repository (or create a file for the script) and make the script execu
 
 bash
 
-git clone https://github.com/BassPeak1234/SetupVM-Debian/
-
-cd SetupVM-Debian
-
-chmod +x setupDebian.sh
+    git clone https://github.com/BassPeak1234/SetupVM-Debian/
+    cd SetupVM-Debian
+    chmod +x setupDebian.sh
 
 
 2. Run the Script
 
 To execute the script, use the following command:
 
-./setupDebian.sh
+    ./setupDebian.sh
 
 The script will then prompt you to decide whether or not to configure a static IP address. Simply respond "yes" or "no" when prompted.
 
@@ -55,8 +53,6 @@ The script will then prompt you to decide whether or not to configure a static I
         If the answer is "no", the script simply exits.
 
 
-The script will then prompt you to decide whether or not to configure a static IP address. Simply respond "yes" or "no" when prompted.
-Notes
 
   This script must be run with administrator privileges.
   
